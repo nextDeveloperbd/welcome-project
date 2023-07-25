@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruit Burst!! </title>
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        'bike-primary': '#E76F51',
+                    }
+                }
+            }
+        }
+    </script>
+    <!-- Daisy us css -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.3.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- Header start -->
+    <header class="container mx-auto ">
+        <div class="md:bg-[#F85559] py-2 rounded-full px-10">
+            <div class="flex items-center justify-between ">
+                <div class="dropdown lg:hidden">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <ul tabindex="0"
+                        class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                        <li><a>Home</a></li>
+                        <li><a>About us</a></li>
+                        <li><a>Shop</a></li>
+                        <li><a>All Fruits</a></li>
+                    </ul>
+                </div>
+
+                <!-- Left side - Menu (visible on larger screens) -->
+                <div class="hidden lg:flex items-center space-x-4 text-[18px]">
+                    <a href="#" class="text-white">Home</a>
+                    <a href="#" class="text-white">About us</a>
+                    <a href="#" class="text-white">Shop</a>
+                    <a href="#" class="text-white">All Fruits</a>
+                </div>
+
+                <!-- Middle - Logo -->
+                <div class="text-white font-bold text-xl flex items-center gap-x-3 ">
+                    <img class="w-10 md:w-12" src="./images/logo.png" alt="">
+                    <h2 class="text-2xl md:text-[32px] lg:text-[40px] text-black md:text-white">Fruits Brust</h2>
+                </div>
+
+                <!-- Right side - Search Field with Icon -->
+                <div class="relative hidden md:block ">
+                    <input type="text"
+                        class="py-2 pr-10 pl-4 rounded-full bg-white text-gray-800 focus:outline-none focus:ring focus:border-blue-300"
+                        placeholder="Search..." />
+                    <button class="absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M10 18l6-6M4 12a8 8 0 018-8V0M21 21l-3-3" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+    </header>
+    <!-- Header end -->
+    <main class="container mx-auto py-10">
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+
+</html>
