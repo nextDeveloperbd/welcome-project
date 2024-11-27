@@ -1,0 +1,25 @@
+
+table,th, td{
+    border: 2px solid black;
+    
+}
+table{
+    font-size: 30px;
+}
+th{
+color: tomato;
+}
+td{
+color: indianred;
+}
+.table2{
+color: blue; 
+font-weight: bold;
+font-style: italic;
+}
+.table3{
+color: springgreen;
+font-weight: bold;
+font-style: italic;
+font-size: 40px;
+}
